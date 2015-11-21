@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle ahk-syntax-highlighting'
+      'command': 'ahk-syntax-highlighting:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ahk-syntax-highlighting'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'ahk-syntax-highlighting:toggle'
+        }
+      ]
+    ]
+  }
+]
