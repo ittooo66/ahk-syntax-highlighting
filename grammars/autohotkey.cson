@@ -17,7 +17,7 @@
 	}
 	{# %param% Variables
 		'begin': '%'
-		'end': '%'
+		'end': '%|\n'
 		'name': '.string.'
 	}
 	{# Comment Lines
